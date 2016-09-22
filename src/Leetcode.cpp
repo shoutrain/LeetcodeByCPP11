@@ -11,12 +11,13 @@ unsigned int Leetcode::_index = 0;
 Leetcode *Leetcode::_leetcodes[Leetcode::maxNum];
 
 Leetcode::Leetcode() {
-	_leetcodes[_index] = this;
-	_index++;
+	_leetcodes[_index++] = this;
 }
 
 Leetcode::~Leetcode() {
 }
+
+#include "ReverseString.h"
 
 int main() {
 	auto num = Leetcode::getIndex();

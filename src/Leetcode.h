@@ -15,7 +15,7 @@ public:
 	Leetcode();
 	virtual ~Leetcode();
 
-	virtual int run() = 0;
+	virtual void run() = 0;
 
 	static unsigned int getIndex() {
 		return _index;
