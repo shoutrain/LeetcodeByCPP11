@@ -31,6 +31,7 @@ int main() {
 	for (; i < num; i++) {
 		Leetcode *lc = Leetcode::getLeetcode(i);
 
+		cout << endl;
 		cout << "--- Leetcode " << i << ": ---" << endl;
 		lc->run();
 	}
