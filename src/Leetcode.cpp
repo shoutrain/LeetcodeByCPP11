@@ -18,6 +18,11 @@ Leetcode::~Leetcode() {
 }
 
 #include "ReverseString.h"
+#include "SwapNodesInPairs.h"
+
+#include <iostream>
+
+using namespace std;
 
 int main() {
 	auto num = Leetcode::getIndex();
@@ -26,6 +31,7 @@ int main() {
 	for (; i < num; i++) {
 		Leetcode *lc = Leetcode::getLeetcode(i);
 
+		cout << "--- Leetcode " << i << ": ---" << endl;
 		lc->run();
 	}
 
