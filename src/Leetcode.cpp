@@ -19,10 +19,13 @@ Leetcode::~Leetcode() {
 
 #include "ReverseString.h"
 #include "SwapNodesInPairs.h"
+#include "OddEvenLinkedList.h"
 
 #include <iostream>
 
 using namespace std;
+
+#include <typeinfo>
 
 int main() {
 	auto num = Leetcode::getIndex();
@@ -32,7 +35,7 @@ int main() {
 		Leetcode *lc = Leetcode::getLeetcode(i);
 
 		cout << endl;
-		cout << "--- Leetcode " << i << ": ---" << endl;
+		cout << typeid(*lc).name() << " ---" << endl;
 		lc->run();
 	}
 
