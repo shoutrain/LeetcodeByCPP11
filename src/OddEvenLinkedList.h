@@ -10,8 +10,6 @@
 
 #include "Leetcode.h"
 
-#include "SwapNodesInPairs.h"
-
 class OddEvenLinkedList: public Leetcode {
 public:
 	ListNode *oddEvenList(ListNode *head);

@@ -8,17 +8,6 @@
 #ifndef SRC_SWAPNODESINPAIRS_H_
 #define SRC_SWAPNODESINPAIRS_H_
 
-/**
- * Definition for singly-linked list.
- */
-struct ListNode {
-	int val;
-	ListNode *next;
-	ListNode(int x) :
-			val(x), next(nullptr) {
-	}
-};
-
 #include "Leetcode.h"
 
 class SwapNodesInPairs: public Leetcode {

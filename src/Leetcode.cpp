@@ -20,16 +20,17 @@ Leetcode::~Leetcode() {
 #include "ReverseString.h"
 #include "SwapNodesInPairs.h"
 #include "OddEvenLinkedList.h"
+#include "GuessNumberHigherOrLowerII.h"
 
+#include <typeinfo>
 #include <iostream>
 
 using namespace std;
 
-#include <typeinfo>
-
 int main() {
 	auto num = Leetcode::getIndex();
 	decltype(num) i = 0;
+	Leetcode *lc = nullptr;
 
 	for (; i < num; i++) {
 		Leetcode *lc = Leetcode::getLeetcode(i);
