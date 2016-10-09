@@ -17,12 +17,6 @@ Leetcode::Leetcode() {
 Leetcode::~Leetcode() {
 }
 
-#include "ReverseString.h"
-#include "SwapNodesInPairs.h"
-#include "OddEvenLinkedList.h"
-#include "GuessNumberHigherOrLower.h"
-#include "GuessNumberHigherOrLowerII.h"
-
 #include <typeinfo>
 #include <iostream>
 
