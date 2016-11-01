@@ -5,9 +5,9 @@
  *      Author: rafael
  */
 
-#include "SingleNumber.h"
+#include "SingleNumberI.h"
 
-int SingleNumber::singleNumber(vector<int> &nums) {
+int SingleNumberI::singleNumber(vector<int> &nums) {
     int n = 0;
 
 	for (auto num : nums) {
@@ -17,8 +17,8 @@ int SingleNumber::singleNumber(vector<int> &nums) {
 	return n;
 }
 
-void SingleNumber::run() {
+void SingleNumberI::run() {
 
 }
 
-static Leetcode *lc = new SingleNumber();
+static Leetcode *lc = new SingleNumberI();

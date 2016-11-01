@@ -7,8 +7,6 @@
 
 #include "UniqueBinarySearchTreesII.h"
 
-#include <iostream>
-
 TreeNode *UniqueBinarySearchTreesII::clone(TreeNode *tree) {
 	if (tree == nullptr) {
 		return nullptr;

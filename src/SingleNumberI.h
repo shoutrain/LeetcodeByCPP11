@@ -14,7 +14,7 @@
 
 using namespace std;
 
-class SingleNumber: public Leetcode {
+class SingleNumberI: public Leetcode {
 public:
 	int singleNumber(vector<int> &nums);
 
