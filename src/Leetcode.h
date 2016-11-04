@@ -53,7 +53,6 @@ public:
 	}
 
 private:
-
 	static unsigned int _index;
 	static Leetcode *_leetcodes[];
 };

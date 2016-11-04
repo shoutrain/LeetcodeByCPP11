@@ -40,8 +40,8 @@ void SingleNumberIII::run() {
 	list.push_back(5);
 
 	vector<int> result = singleNumber(list);
-	cout << "The single numbers are: " << result[0] << " and " << result[1]
-			<< endl;
+	cout << "The single numbers are: " << result[0];
+	cout << " and " << result[1] << endl;
 }
 
 static Leetcode *lc = new SingleNumberIII();
