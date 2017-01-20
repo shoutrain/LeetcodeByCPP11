@@ -69,4 +69,4 @@ void IntegerReplacement::run() {
 	cout << "2147483647's minimum is: " << integerReplacement(2147483647) << endl;
 }
 
-Leetcode *lc = new IntegerReplacement();
+static Leetcode *lc = new IntegerReplacement();
