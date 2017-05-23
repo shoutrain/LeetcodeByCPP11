@@ -29,4 +29,4 @@ void NumberOf1Bits::run() {
 	cout << "9823's hamming weight: " << hammingWeight(9823) << endl;
 }
 
-static Leetcode *lc = new NumberOf1Bits();
+static Leetcode *numberOf1Bits = new NumberOf1Bits();

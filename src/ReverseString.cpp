@@ -26,4 +26,4 @@ void ReverseString::run() {
 	cout << "world" << " <-> " << reverseString("world") << endl;
 }
 
-static Leetcode *lc = new ReverseString();
+static Leetcode *reverseString = new ReverseString();

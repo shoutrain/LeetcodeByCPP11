@@ -41,4 +41,4 @@ void PowerOfFour::run() {
 	cout << "-2147483648: " << isPowerOfFour(-2147483648) << endl;
 }
 
-static Leetcode *lc = new PowerOfFour();
+static Leetcode *powerOfFour = new PowerOfFour();

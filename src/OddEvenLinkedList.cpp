@@ -74,4 +74,4 @@ void OddEvenLinkedList::run() {
 	cout << endl;
 }
 
-static Leetcode *lc = new OddEvenLinkedList();
+static Leetcode *oddEvenLinkedList = new OddEvenLinkedList();

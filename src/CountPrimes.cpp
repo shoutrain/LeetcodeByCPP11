@@ -24,7 +24,6 @@ int CountPrimes::countPrimes(int n) {
 			continue;
 		}
 
-		//arr[i] = 1;
 		m++;
 
 		for (auto j = i + i; j < n; j += i) {
@@ -43,4 +42,4 @@ void CountPrimes::run() {
 	cout << "Count Primes - " << n << " is: " << countPrimes(n) << endl;
 }
 
-static Leetcode *lc = new CountPrimes();
+static Leetcode *countPrimes = new CountPrimes();

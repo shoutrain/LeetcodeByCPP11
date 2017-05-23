@@ -44,4 +44,4 @@ void DecodeWays::run() {
 	cout << s << ": " << numDecodings(s) << endl;
 }
 
-static Leetcode *lc = new DecodeWays();
+static Leetcode *decodeWays = new DecodeWays();

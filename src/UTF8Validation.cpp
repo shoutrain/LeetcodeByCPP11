@@ -90,4 +90,4 @@ void UTF8Validation::run() {
 	}
 }
 
-static Leetcode *lc = new UTF8Validation();
+static Leetcode *utf8Validation = new UTF8Validation();

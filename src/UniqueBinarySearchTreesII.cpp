@@ -71,4 +71,4 @@ void UniqueBinarySearchTreesII::run() {
 	cout << trees.size() << endl;
 }
 
-static Leetcode *lc = new UniqueBinarySearchTreesII();
+static Leetcode *uniqueBinarySearchTreesII = new UniqueBinarySearchTreesII();

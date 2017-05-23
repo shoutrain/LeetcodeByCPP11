@@ -57,4 +57,4 @@ void GuessNumberHigherOrLower::run() {
 	cout << "1~" << n << ": " << guessNumber(n) << endl;
 }
 
-static Leetcode *lc = new GuessNumberHigherOrLower();
+static Leetcode *guessNumberHighterOrLower = new GuessNumberHigherOrLower();
