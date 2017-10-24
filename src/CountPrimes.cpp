@@ -42,4 +42,4 @@ void CountPrimes::run() {
 	cout << "Count Primes - " << n << " is: " << countPrimes(n) << endl;
 }
 
-static Leetcode *countPrimes = new CountPrimes();
+// static Leetcode *lc = new CountPrimes();

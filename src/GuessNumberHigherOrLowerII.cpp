@@ -63,4 +63,4 @@ void GuessNumberHigherOrLowerII::run() {
 	}
 }
 
-static Leetcode *guessNumberHighterOrLowerII = new GuessNumberHigherOrLowerII();
+// static Leetcode *lc = new GuessNumberHigherOrLowerII();

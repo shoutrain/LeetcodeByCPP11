@@ -1,7 +1,5 @@
-.cproject
+.vscode/
 Leetcode
-.project
-.settings
 .sconsign.dblite
 *.o
 *.out

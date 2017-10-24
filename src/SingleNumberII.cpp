@@ -37,4 +37,4 @@ void SingleNumberII::run() {
 	cout << "The single number is: " << singleNumber(list) << endl;
 }
 
-static Leetcode *singleNumberII = new SingleNumberII();
+// static Leetcode *lc = new SingleNumberII();

@@ -65,4 +65,4 @@ int FindKthLargest::partition(vector<int> &nums, int left, int right) {
     return r;
 }
 
-static Leetcode *findKthLargest = new FindKthLargest();
+// static Leetcode *lc = new FindKthLargest();

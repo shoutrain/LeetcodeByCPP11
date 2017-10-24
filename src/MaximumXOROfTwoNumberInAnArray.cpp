@@ -43,4 +43,4 @@ void MaximumXOROfTwoNumberInAnArray::run() {
 	cout << "The max XOR is: " << findMaximumXOR(list) << endl;
 }
 
-static Leetcode *maximumXOROfTwoNumberInAnArray = new MaximumXOROfTwoNumberInAnArray();
+// static Leetcode *lc = new MaximumXOROfTwoNumberInAnArray();

@@ -68,4 +68,4 @@ void SwapNodesInPairs::run() {
 	cout << endl;
 }
 
-static Leetcode *swapNodesInPairs = new SwapNodesInPairs();
+// static Leetcode *lc = new SwapNodesInPairs();

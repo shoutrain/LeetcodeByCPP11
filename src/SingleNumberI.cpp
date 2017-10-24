@@ -21,4 +21,4 @@ void SingleNumberI::run() {
 
 }
 
-static Leetcode *singleNumberI = new SingleNumberI();
+// static Leetcode *lc = new SingleNumberI();

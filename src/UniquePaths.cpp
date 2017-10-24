@@ -50,4 +50,4 @@ void UniquePaths::run() {
 	cout << "4x4: " << uniquePaths(4, 4) << endl;
 }
 
-static Leetcode *uniquePaths = new UniquePaths();
+// static Leetcode *lc = new UniquePaths();

@@ -54,4 +54,4 @@ void UniquePathsII::run() {
 	cout << "result: " << uniquePathsWithObstacles(grid) << endl;
 }
 
-static Leetcode *uniquePathsII = new UniquePathsII();
+// static Leetcode *lc = new UniquePathsII();

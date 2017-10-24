@@ -53,4 +53,4 @@ void GasStation::run() {
 	cout << "result: " << canCompleteCircuit(gas, cost) << endl;
 }
 
-static Leetcode *gasStation = new GasStation();
+// static Leetcode *lc = new GasStation();

@@ -55,4 +55,4 @@ void ValidPerfectSquare::run() {
 
 }
 
-static Leetcode *validPerfectSquare = new ValidPerfectSquare();
+// static Leetcode *lc = new ValidPerfectSquare();

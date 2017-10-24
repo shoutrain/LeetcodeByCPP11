@@ -29,4 +29,4 @@ void BitWiseAndOfNumbersRange::run() {
 
 }
 
-static Leetcode * bitWiseAndOfNumberRange = new BitWiseAndOfNumbersRange();
+// static Leetcode *lc = new BitWiseAndOfNumbersRange();

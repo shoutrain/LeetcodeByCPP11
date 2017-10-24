@@ -44,4 +44,4 @@ void SingleNumberIII::run() {
 	cout << " and " << result[1] << endl;
 }
 
-static Leetcode *singleNumberIII = new SingleNumberIII();
+// static Leetcode *lc = new SingleNumberIII();
