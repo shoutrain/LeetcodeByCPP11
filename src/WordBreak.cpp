@@ -27,7 +27,7 @@ bool WordBreak::wordBreak(string s, vector<string> &wordDict) {
 		if (minWordSize == 0) {
 			minWordSize = tmp.size();
 		} else if (minWordSize > tmp.size()) {
-			minWordSize = tmp.size;
+			minWordSize = tmp.size();
 		}
 
 		for (int j = 0; j < tmp.size(); j++) {
